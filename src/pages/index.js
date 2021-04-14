@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { StackItem } from "@quarkly/components";
+import { Override, StackItem, Stack, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -14,165 +14,133 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<StackItem height="1000px" color="#000000" background="#ffffff">
-			<Text
-				width=" 263px"
-				height=" 96px"
-				margin="63px 0px 16px 325px"
-				color="rgba(140, 140, 140, 0.58)"
-				font="300 16px --fontFamily-googleRoboto"
-				lg-margin="63px 0px 16px 60px"
-				md-margin="63px 0px 16px 50"
-				sm-margin="850px 0px 16px 15px"
-			>
-				2004-2021 © Wildberries — модный интернет-магазин одежды, обуви{" "}
-				<br />
-				и аксессуаров. Все права защищены.
-			</Text>
-			<Box
-				width="190px"
-				margin="63px 0px 0px 69px"
-				height="360px"
-				md-margin="63px 0px 0px 70px"
-				sm-margin="63px 0px 0px -260px"
-			>
-				<Text height="18px" color="#000000" font="400 16px --fontFamily-googleRoboto" margin="0 0px 16px 0px">
-					Покупателям
-				</Text>
-				<Text
-					color="rgba(0, 0, 0, 0.58)"
-					font="300 16px/120% --fontFamily-googleRoboto"
-					width="204.95px"
-					height="300px"
-					margin="20px 0px 16px 0px"
+		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
+			<Stack margin-top="40px">
+				<StackItem
+					width="25%"
+					lg-width="30%"
+					sm-width="50%"
+					lg-padding="0 0 0 0"
+					md-padding="16px 16px 16px 16px"
+					sm-height="415px"
+					sm-padding="40px 16px 16px 16px"
 				>
-					Как сделать заказ{"\n"}
-					<br />
-					<br />
-					Способы оплаты{"\n"}
-					<br />
-					<br />
-					Доставка{"\n"}
-					<br />
-					<br />
-					Возврат товара{"\n"}
-					<br />
-					<br />
-					Возврат денежных{" "}
-					<br />
-					средств{"\n"}
-					<br />
-					<br />
-					Правила продажи{"\n"}
-					<br />
-					<br />
-					Правила пользования торговой площадкой{"\n"}
-					<br />
-					<br />
-					Вопросы и ответы
-				</Text>
-			</Box>
-			<Box
-				width="200px"
-				margin="63px 0px 0px 69px"
-				height="350px"
-				md-margin="500px 0px 0px -190px"
-				sm-margin="63px 0px 0px 20px"
-			>
-				<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
-					Партнерам
-				</Text>
-				<Text
-					color="rgba(0, 0, 0, 0.58)"
-					font="300 16px/120% --fontFamily-googleRoboto"
-					width="204.95px"
-					height="300px"
-					margin="20px 0px 16px 0px"
-				>
-					Партнерская программа{"\n"}
-					<br />
-					<br />
-					Как начать{" "}
-					<br />
-					сотрудничество{"\n"}
-					<br />
-					<br />
-					Преимущества{"\n"}
-					<br />
-					<br />
-					Франшиза{"\n"}
-				</Text>
-			</Box>
-			<Box
-				width="100px"
-				margin="63px 0 0px 69px"
-				height="350px"
-				lg-margin="500px 69px 0px -800px"
-				md-margin="500px 0px 0px -540px"
-				sm-margin="500px 40px 0px -410px"
-			>
-				<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
-					Компания
-				</Text>
-				<Text
-					color="rgba(0, 0, 0, 0.58)"
-					font="300 16px/120% --fontFamily-googleRoboto"
-					width="204.95px"
-					height="300px"
-					margin="20px 0px 16px 0px"
-				>
-					О нас{"\n"}
-					<br />
-					<br />
-					Реквизиты{"\n"}
-					<br />
-					<br />
-					Пресс-центр{"\n"}
-					<br />
-					<br />
-					Контакты{"\n"}
-				</Text>
-			</Box>
-			<Box
-				width="160px"
-				margin="63px 325px 0px 69px"
-				height="350px"
-				lg-margin="500px 0px 0px 0px"
-				md-margin="800px 0px 0px -100px"
-				sm-margin="500px 0px 0px 0"
-			>
-				<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
-					Другое
-				</Text>
-				<Text
-					color="rgba(0, 0, 0, 0.58)"
-					font="300 16px/120% --fontFamily-googleRoboto"
-					width="204.95px"
-					height="300px"
-					margin="20px 0px 16px 0px"
-				>
-					Детям
-					<br />
-					<br />
-					ЗОЖ и спорт
-					<br />
-					<br />
-					Online журнал
-					<br />
-					<br />
-					Wb.team
-					<br />
-					<br />
-					Перевозчикам
-					<br />
-					<br />
-					Модный блог
-					<br />
-					<br />
-					Энциклопедия моды
-				</Text>
-			</Box>
-		</StackItem>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text
+						margin="0 10px 0px 0"
+						color="rgba(140, 140, 140, 0.58)"
+						font="300 16px --fontFamily-googleRoboto"
+						lg-margin="0 0px 16px 0"
+						md-margin="63px 0px 16px 50"
+						sm-margin="0 0px 16px 15px"
+					>
+						2004-2021 © Wildberries — модный интернет-магазин одежды, обуви{" "}
+						<br />
+						и аксессуаров. Все права защищены.
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text height="18px" color="#000000" font="400 16px --fontFamily-googleRoboto" margin="0 0px 16px 0px">
+						Покупателям
+					</Text>
+					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px">
+						Как сделать заказ{"\n"}
+						<br />
+						<br />
+						Способы оплаты{"\n"}
+						<br />
+						<br />
+						Доставка{"\n"}
+						<br />
+						<br />
+						Возврат товара{"\n"}
+						<br />
+						<br />
+						Возврат денежных{" "}
+						<br />
+						средств{"\n"}
+						<br />
+						<br />
+						Правила продажи{"\n"}
+						<br />
+						<br />
+						Правила пользования торговой площадкой{"\n"}
+						<br />
+						<br />
+						Вопросы и ответы
+					</Text>
+				</StackItem>
+				<StackItem width="20%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
+						Партнерам
+					</Text>
+					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px">
+						Партнерская программа{"\n"}
+						<br />
+						<br />
+						Как начать{" "}
+						<br />
+						сотрудничество{"\n"}
+						<br />
+						<br />
+						Преимущества{"\n"}
+						<br />
+						<br />
+						Франшиза{"\n"}
+					</Text>
+				</StackItem>
+				<StackItem width="15%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
+						Компания
+					</Text>
+					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px" width="204.95px">
+						О нас{"\n"}
+						<br />
+						<br />
+						Реквизиты{"\n"}
+						<br />
+						<br />
+						Пресс-центр{"\n"}
+						<br />
+						<br />
+						Контакты{"\n"}
+					</Text>
+				</StackItem>
+				<StackItem width="15%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
+						Другое
+					</Text>
+					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px" width="204.95px">
+						Детям
+						<br />
+						<br />
+						ЗОЖ и спорт
+						<br />
+						<br />
+						Online журнал
+						<br />
+						<br />
+						Wb.team
+						<br />
+						<br />
+						Перевозчикам
+						<br />
+						<br />
+						Модный блог
+						<br />
+						<br />
+						Энциклопедия моды
+					</Text>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section>
+			<StackItem />
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
