@@ -23,16 +23,16 @@ export default (() => {
 				font="300 16px --fontFamily-googleRoboto"
 				lg-margin="63px 0px 16px 60px"
 				md-margin="63px 0px 16px 50"
-				sm-margin="750px 0px 16px 15px"
+				sm-margin="850px 0px 16px 15px"
 			>
 				2004-2021 © Wildberries — модный интернет-магазин одежды, обуви{" "}
 				<br />
 				и аксессуаров. Все права защищены.
 			</Text>
 			<Box
-				width="210px"
+				width="190px"
 				margin="63px 0px 0px 69px"
-				height="350px"
+				height="360px"
 				md-margin="63px 0px 0px 70px"
 				sm-margin="63px 0px 0px -260px"
 			>
@@ -58,7 +58,9 @@ export default (() => {
 					Возврат товара{"\n"}
 					<br />
 					<br />
-					Возврат денежных средств{"\n"}
+					Возврат денежных{" "}
+					<br />
+					средств{"\n"}
 					<br />
 					<br />
 					Правила продажи{"\n"}
@@ -71,10 +73,10 @@ export default (() => {
 				</Text>
 			</Box>
 			<Box
-				width="210px"
+				width="200px"
 				margin="63px 0px 0px 69px"
 				height="350px"
-				md-margin="500px 0px 0px -212px"
+				md-margin="500px 0px 0px -190px"
 				sm-margin="63px 0px 0px 20px"
 			>
 				<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
@@ -90,7 +92,9 @@ export default (() => {
 					Партнерская программа{"\n"}
 					<br />
 					<br />
-					Как начать сотрудничество{"\n"}
+					Как начать{" "}
+					<br />
+					сотрудничество{"\n"}
 					<br />
 					<br />
 					Преимущества{"\n"}
@@ -100,12 +104,12 @@ export default (() => {
 				</Text>
 			</Box>
 			<Box
-				width="210px"
-				margin="63px 325px 0px 69px"
+				width="100px"
+				margin="63px 0 0px 69px"
 				height="350px"
-				lg-margin="500px 0px 0px -820px"
+				lg-margin="500px 69px 0px -800px"
 				md-margin="500px 0px 0px -540px"
-				sm-margin="500px 0px 0px -440px"
+				sm-margin="500px 40px 0px -410px"
 			>
 				<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
 					Компания
@@ -127,6 +131,45 @@ export default (() => {
 					<br />
 					<br />
 					Контакты{"\n"}
+				</Text>
+			</Box>
+			<Box
+				width="160px"
+				margin="63px 325px 0px 69px"
+				height="350px"
+				lg-margin="500px 0px 0px 0px"
+				md-margin="800px 0px 0px -100px"
+				sm-margin="500px 0px 0px 0"
+			>
+				<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
+					Другое
+				</Text>
+				<Text
+					color="rgba(0, 0, 0, 0.58)"
+					font="300 16px/120% --fontFamily-googleRoboto"
+					width="204.95px"
+					height="300px"
+					margin="20px 0px 16px 0px"
+				>
+					Детям
+					<br />
+					<br />
+					ЗОЖ и спорт
+					<br />
+					<br />
+					Online журнал
+					<br />
+					<br />
+					Wb.team
+					<br />
+					<br />
+					Перевозчикам
+					<br />
+					<br />
+					Модный блог
+					<br />
+					<br />
+					Энциклопедия моды
 				</Text>
 			</Box>
 		</StackItem>
