@@ -25,13 +25,12 @@ export default (() => {
 					sm-height="415px"
 					sm-padding="40px 16px 16px 16px"
 				>
-					<Override slot="StackItemContent" flex-direction="column" lg-padding="16px 0px 0px 0px" />
+					<Override slot="StackItemContent" flex-direction="column" lg-padding="16px 0px 0px 0px" md-padding="0 0px 0px 0px" />
 					<Text
 						margin="0 10px 0px 0"
 						color="rgba(140, 140, 140, 0.58)"
 						font="300 16px --fontFamily-googleRoboto"
 						lg-margin="0 0px 16px 0"
-						md-margin="63px 0px 16px 50"
 						sm-margin="0 0px 16px 15px"
 					>
 						2004-2021 © Wildberries — модный интернет-магазин одежды, обуви{" "}
