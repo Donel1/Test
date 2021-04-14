@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text } from "@quarkly/widgets";
+import { Theme, Link, Text, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -38,7 +38,7 @@ export default (() => {
 						и аксессуаров. Все права защищены.
 					</Text>
 				</StackItem>
-				<StackItem width="25%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+				<StackItem width="15%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text height="18px" color="#000000" font="400 16px --fontFamily-googleRoboto" margin="0 0px 16px 0px">
 						Покупателям
@@ -64,7 +64,9 @@ export default (() => {
 						Правила продажи{"\n"}
 						<br />
 						<br />
-						Правила пользования торговой площадкой{"\n"}
+						Правила пользования{" "}
+						<br />
+						торговой площадкой{"\n"}
 						<br />
 						<br />
 						Вопросы и ответы
@@ -134,6 +136,12 @@ export default (() => {
 						<br />
 						Энциклопедия моды
 					</Text>
+				</StackItem>
+				<StackItem width="5%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image width="40px" height="40px" src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Vector.svg?v=2021-04-14T22:29:07.516Z" margin="0px 0px 16px 0px" />
+					<Image width="40px" height="40px" src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Vector-1.svg?v=2021-04-14T22:29:07.516Z" margin="0px 0px 16px 0px" />
+					<Image width="40px" height="40px" src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20181.svg?v=2021-04-14T22:29:07.511Z" margin="0px 0px 16px 0px" />
 				</StackItem>
 			</Stack>
 		</Section>
