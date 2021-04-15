@@ -14,7 +14,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section padding="64px 0 0 0" sm-padding="40px 0" font="--base" color="--dark">
+		<Section padding="0px 0 0 0" sm-padding="40px 0" font="--base" color="--dark">
 			<Override slot="SectionContent" />
 			<Stack margin-top="40px">
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
@@ -235,7 +235,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20224.png?v=2021-04-15T08:34:06.729Z) 50% 0/cover no-repeat">
 						<Box background="#EBFAF3" width="134.86px" height="43.55px">
@@ -465,15 +465,128 @@ export default (() => {
 			padding="80px 0 24px 0"
 		>
 			<Override slot="SectionContent" width="1280px" />
+			<Text
+				as="h2"
+				font="normal 700 40px/1.2 --fontFamily-googleOpenSans"
+				md-font="normal 700 42px/1.2 --fontFamily-googleOpenSans"
+				margin="20px 0 0 0"
+				sm-font="normal 500 30px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+				lg-font="normal 700 40px/1.2 --fontFamily-googleOpenSans"
+			>
+				Мы сотрудничаем с
+			</Text>
+			<Stack width="100%" margin="30px 0 0 0">
+				<StackItem
+					width="18%"
+					lg-width="30%"
+					sm-width="40%"
+					sm-margin-top="24px"
+					margin="0px 25px 0px 0px"
+					sm-padding="16px 16px 16px 16px"
+					sm-height="200px"
+				>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20230%20(2).png?v=2021-04-15T11:17:26.695Z"
+						width="200px"
+						height="200px"
+						sm-width="100px"
+						sm-height="100px"
+					/>
+				</StackItem>
+				<StackItem
+					width="18%"
+					lg-width="30%"
+					sm-width="40%"
+					sm-margin-top="24px"
+					margin="0px 25px 0px 0px"
+					sm-padding="16px 16px 16px 16px"
+					sm-height="200px"
+				>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20231%20(1).png?v=2021-04-15T11:19:49.516Z"
+						width="200px"
+						height="200px"
+						sm-width="100px"
+						sm-height="100px"
+					/>
+				</StackItem>
+				<StackItem
+					width="18%"
+					lg-width="30%"
+					sm-width="40%"
+					sm-margin-top="24px"
+					margin="0px 25px 0px 0px"
+					sm-padding="16px 16px 16px 16px"
+					sm-height="200px"
+				>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20232.png?v=2021-04-15T11:21:17.939Z"
+						width="200px"
+						height="200px"
+						sm-width="100px"
+						sm-height="100px"
+					/>
+				</StackItem>
+				<StackItem
+					width="18%"
+					lg-width="30%"
+					sm-width="40%"
+					sm-margin-top="24px"
+					margin="0px 25px 0px 0px"
+					sm-padding="16px 16px 16px 16px"
+					sm-height="200px"
+				>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20233.png?v=2021-04-15T11:22:36.854Z"
+						width="200px"
+						height="200px"
+						sm-width="100px"
+						sm-height="100px"
+					/>
+				</StackItem>
+				<StackItem
+					width="18%"
+					lg-width="30%"
+					sm-width="40%"
+					sm-margin-top="24px"
+					margin="0px 25px 0px 0px"
+					sm-padding="16px 16px 16px 16px"
+					sm-height="200px"
+				>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20234%20(1).png?v=2021-04-15T11:24:11.019Z"
+						width="200px"
+						height="200px"
+						sm-width="100px"
+						sm-height="100px"
+					/>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section
+			sm-padding="40px 0"
+			font="--base"
+			color="--dark"
+			width="100%"
+			lg-padding="64px 0 64px 55px"
+			md-padding="64px 0 64px 25px"
+			padding="80px 0 24px 0"
+		>
+			<Override slot="SectionContent" width="1280px" />
 			<Stack width="100%" margin="0 0 0 0">
 				<StackItem
 					width="25%"
 					lg-width="30%"
-					sm-width="47%"
+					sm-width="44%"
 					sm-margin-top="24px"
 					margin="0px 15px 0px 0px"
 					sm-padding="16px 16px 16px 16px"
-					sm-height="150px"
+					sm-height="200px"
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px">
@@ -486,7 +599,7 @@ export default (() => {
 					sm-width="47%"
 					sm-margin-top="24px"
 					margin="0px 15px 0px 0px"
-					sm-padding="16px 16px 16px 0"
+					sm-padding="16px 16px 16px 16px"
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text height="18px" color="#000000" font="400 16px --fontFamily-googleRoboto" margin="0 0px 16px 0px">
@@ -602,9 +715,6 @@ export default (() => {
 					<Image width="40px" height="40px" src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20181.svg?v=2021-04-14T22:29:07.511Z" margin="0px 0px 16px 0px" />
 				</StackItem>
 			</Stack>
-		</Section>
-		<Section>
-			<StackItem />
 		</Section>
 		<Link
 			font={"--capture"}
