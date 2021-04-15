@@ -72,6 +72,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -125,6 +132,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -178,6 +192,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -231,6 +252,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -290,6 +318,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -343,6 +378,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -396,6 +438,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
@@ -449,6 +498,13 @@ export default (() => {
 						font="normal 300 18px/1.5 --fontFamily-googleRoboto"
 						margin="15px 0px 0px 0px"
 						border-radius="7px"
+						hover-color="#ffffff"
+						hover-border-color="#36CB84"
+						hover-background="#36CB84"
+						hover-font="normal 400 18px/1.5 --fontFamily-googleRoboto"
+						focus-background="#36CB84"
+						focus-color="#ffffff"
+						focus-border-color="#36CB84"
 					>
 						В корзину
 					</Button>
