@@ -31,7 +31,7 @@ export default (() => {
 						color="rgba(140, 140, 140, 0.58)"
 						font="300 16px --fontFamily-googleRoboto"
 						lg-margin="0 0px 16px 0"
-						sm-margin="0 0px 16px 15px"
+						sm-margin="0 0px 16px 0"
 					>
 						2004-2021 © Wildberries — модный интернет-магазин одежды, обуви{" "}
 						<br />
