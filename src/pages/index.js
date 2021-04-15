@@ -235,9 +235,15 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%" margin="30px 0px 0px 0px">
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20224.png?v=2021-04-15T08:34:06.729Z) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20224.png?v=2021-04-15T08:34:06.729Z) 50% 0/cover no-repeat">
+						<Box background="#EBFAF3" width="134.86px" height="43.55px">
+							<Text margin="0 0px 16px 22px" border-color="#36CB84" color="#36CB84" font="400 16px/45px --fontFamily-googleRoboto">
+								Хит продаж
+							</Text>
+						</Box>
+					</Box>
 					<Stack>
 						{"    "}
 						<StackItem display="flex" width="100%" padding="16px 16px 0 16px">
@@ -464,21 +470,13 @@ export default (() => {
 					width="25%"
 					lg-width="30%"
 					sm-width="47%"
-					lg-padding="0 0 0 0"
-					md-padding="16px 16px 16px 16px"
-					sm-height="180px"
-					sm-padding="40px 16px 16px 16px"
-					padding="0px 0px 0px 0px"
-					margin="0px px 0px -20px"
+					sm-margin-top="24px"
+					margin="0px 15px 0px 0px"
+					sm-padding="16px 16px 16px 16px"
+					sm-height="150px"
 				>
-					<Override slot="StackItemContent" flex-direction="column" lg-padding="16px 0px 0px 0px" md-padding="0 0px 0px 0px" />
-					<Text
-						margin="0 10px 0px 0"
-						color="rgba(140, 140, 140, 0.58)"
-						font="300 16px --fontFamily-googleRoboto"
-						lg-margin="0 0px 16px 0"
-						sm-margin="0 0px 16px 0"
-					>
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px">
 						2004-2021 © Shop — модный интернет-магазин одежды, обувии аксессуаров. Все права защищены.
 					</Text>
 				</StackItem>
