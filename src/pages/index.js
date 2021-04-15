@@ -487,7 +487,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
-						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20230%20(2).png?v=2021-04-15T11:17:26.695Z"
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20230%20(3).png?v=2021-04-15T11:32:12.529Z"
 						width="200px"
 						height="200px"
 						sm-width="100px"
@@ -505,7 +505,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
-						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20231%20(1).png?v=2021-04-15T11:19:49.516Z"
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20231%20(2).png?v=2021-04-15T11:32:27.485Z"
 						width="200px"
 						height="200px"
 						sm-width="100px"
@@ -523,7 +523,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
-						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20232.png?v=2021-04-15T11:21:17.939Z"
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20232%20(1).png?v=2021-04-15T11:32:50.157Z"
 						width="200px"
 						height="200px"
 						sm-width="100px"
@@ -541,7 +541,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
-						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20233.png?v=2021-04-15T11:22:36.854Z"
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20233%20(1).png?v=2021-04-15T11:33:11.465Z"
 						width="200px"
 						height="200px"
 						sm-width="100px"
@@ -559,7 +559,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
-						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20234%20(1).png?v=2021-04-15T11:24:11.019Z"
+						src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20234%20(3).png?v=2021-04-15T11:33:32.077Z"
 						width="200px"
 						height="200px"
 						sm-width="100px"
@@ -589,7 +589,7 @@ export default (() => {
 					sm-height="200px"
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="10px 0px 16px 0px">
+					<Text color="rgba(0, 0, 0, 0.58)" font="300 16px/120% --fontFamily-googleRoboto" margin="0 0px 16px 0px">
 						2004-2021 © Shop — модный интернет-магазин одежды, обувии аксессуаров. Все права защищены.
 					</Text>
 				</StackItem>
