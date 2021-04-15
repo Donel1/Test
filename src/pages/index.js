@@ -46,7 +46,7 @@ export default (() => {
 							</Text>
 							<Box background="#FDF1E9" width="65px" height="34px" border-radius="5px">
 								<Text margin="6px 0px 16px 14.5px" font="500 16px/24px --fontFamily-googleRoboto" color="#EC7623">
-									-10%
+									-20%
 								</Text>
 							</Box>
 							{"    "}
@@ -76,7 +76,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20226.png?v=2021-04-15T09:44:31.145Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -129,7 +129,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20225.png?v=2021-04-15T09:40:47.929Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -152,7 +152,7 @@ export default (() => {
 							</Text>
 							<Box background="#FDF1E9" width="65px" height="34px" border-radius="5px">
 								<Text margin="6px 0px 16px 14.5px" font="500 16px/24px --fontFamily-googleRoboto" color="#EC7623">
-									-10%
+									-40%
 								</Text>
 							</Box>
 							{"    "}
@@ -182,7 +182,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20227.png?v=2021-04-15T09:53:31.536Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -205,7 +205,7 @@ export default (() => {
 							</Text>
 							<Box background="#FDF1E9" width="65px" height="34px" border-radius="5px">
 								<Text margin="6px 0px 16px 14.5px" font="500 16px/24px --fontFamily-googleRoboto" color="#EC7623">
-									-10%
+									-20%
 								</Text>
 							</Box>
 							{"    "}
@@ -235,7 +235,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20224.png?v=2021-04-15T08:34:06.729Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -258,7 +258,7 @@ export default (() => {
 							</Text>
 							<Box background="#FDF1E9" width="65px" height="34px" border-radius="5px">
 								<Text margin="6px 0px 16px 14.5px" font="500 16px/24px --fontFamily-googleRoboto" color="#EC7623">
-									-10%
+									-20%
 								</Text>
 							</Box>
 							{"    "}
@@ -288,7 +288,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20226.png?v=2021-04-15T09:44:31.145Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -341,7 +341,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20225.png?v=2021-04-15T09:40:47.929Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -364,7 +364,7 @@ export default (() => {
 							</Text>
 							<Box background="#FDF1E9" width="65px" height="34px" border-radius="5px">
 								<Text margin="6px 0px 16px 14.5px" font="500 16px/24px --fontFamily-googleRoboto" color="#EC7623">
-									-10%
+									-40%
 								</Text>
 							</Box>
 							{"    "}
@@ -394,7 +394,7 @@ export default (() => {
 						В корзину
 					</Button>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" margin="30px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Group%20227.png?v=2021-04-15T09:53:31.536Z) 50% 0/cover no-repeat" />
 					<Stack>
@@ -417,7 +417,7 @@ export default (() => {
 							</Text>
 							<Box background="#FDF1E9" width="65px" height="34px" border-radius="5px">
 								<Text margin="6px 0px 16px 14.5px" font="500 16px/24px --fontFamily-googleRoboto" color="#EC7623">
-									-10%
+									-20%
 								</Text>
 							</Box>
 							{"    "}
@@ -463,10 +463,10 @@ export default (() => {
 				<StackItem
 					width="25%"
 					lg-width="30%"
-					sm-width="50%"
+					sm-width="47%"
 					lg-padding="0 0 0 0"
 					md-padding="16px 16px 16px 16px"
-					sm-height="415px"
+					sm-height="180px"
 					sm-padding="40px 16px 16px 16px"
 					padding="0px 0px 0px 0px"
 					margin="0px px 0px -20px"
@@ -479,17 +479,16 @@ export default (() => {
 						lg-margin="0 0px 16px 0"
 						sm-margin="0 0px 16px 0"
 					>
-						2004-2021 © Shop — модный интернет-магазин одежды, обуви{" "}
-						<br />
-						и аксессуаров. Все права защищены.
+						2004-2021 © Shop — модный интернет-магазин одежды, обувии аксессуаров. Все права защищены.
 					</Text>
 				</StackItem>
 				<StackItem
 					width="15%"
 					lg-width="30%"
-					sm-width="50%"
+					sm-width="47%"
 					sm-margin-top="24px"
 					margin="0px 15px 0px 0px"
+					sm-padding="16px 16px 16px 0"
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text height="18px" color="#000000" font="400 16px --fontFamily-googleRoboto" margin="0 0px 16px 0px">
@@ -524,7 +523,7 @@ export default (() => {
 						Вопросы и ответы
 					</Text>
 				</StackItem>
-				<StackItem width="20%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+				<StackItem width="20%" lg-width="30%" sm-width="47%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text color="#000000" font="400 16px --fontFamily-googleRoboto" height="18px" margin="0 0px 16px 0px">
 						Партнерам
@@ -547,7 +546,7 @@ export default (() => {
 				<StackItem
 					width="15%"
 					lg-width="30%"
-					sm-width="50%"
+					sm-width="47%"
 					sm-margin-top="24px"
 					margin="0px 15px 0px 0px"
 				>
@@ -571,7 +570,7 @@ export default (() => {
 				<StackItem
 					width="15%"
 					lg-width="30%"
-					sm-width="50%"
+					sm-width="47%"
 					sm-margin-top="24px"
 					margin="0px 15px 0px 0px"
 				>
@@ -598,7 +597,7 @@ export default (() => {
 						Энциклопедия моды
 					</Text>
 				</StackItem>
-				<StackItem width="5%" lg-width="30%" sm-width="50%" sm-margin-top="24px">
+				<StackItem width="5%" lg-width="30%" sm-width="47%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image width="40px" height="40px" src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Vector.svg?v=2021-04-14T22:29:07.516Z" margin="0px 0px 16px 0px" />
 					<Image width="40px" height="40px" src="https://uploads.quarkly.io/6075c8436de461001eb86de1/images/Vector-1.svg?v=2021-04-14T22:29:07.516Z" margin="0px 0px 16px 0px" />
